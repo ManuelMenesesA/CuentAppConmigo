@@ -76,6 +76,19 @@
   }
 }
 
+.contenedor {
+    display: flex;
+    width: 300px;
+    height: 320px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #0dcaf0;
+    box-shadow: 7px 7px 7px #0dcaf0, -7px -7px 7px #0dcaf0;
+}
+
 .contar {
     font-size: 5rem;
 }
